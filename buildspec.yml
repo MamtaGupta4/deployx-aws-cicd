@@ -20,3 +20,4 @@ phases:
 artifacts:
   files:
     - '**/*'
+  name: code-output-demo-app
