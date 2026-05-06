@@ -1,3 +1,71 @@
 <!DOCTYPE html>
-<h1>My Demo App</h1>
-<p>this is too good</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My DevOps Project</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: white;
+            color: #333;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #333;
+            color: white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Welcome to My DevOps Project</h1>
+    <p>Successfully deployed using AWS CodeDeploy & CI/CD Pipeline</p>
+    
+    <button class="btn" onclick="showMessage()">Click Me</button>
+</div>
+
+<footer>
+    <p>Made by Mamta 💻 | AWS DevOps Project</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Deployment Successful 🎉");
+    }
+</script>
+
+</body>
+</html>
